@@ -50,8 +50,7 @@
                 <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
                 </li>
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-                        <span>Project</span></a></li>
+                <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i><span>Project</span></a></li>
                 <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
                 </li>
             </ul>
@@ -241,19 +240,19 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Murrieta, CA</p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>ggcline82@gmail.com</p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>+1 951-704-6886</p>
                             </div>
 
                         </div>
@@ -262,7 +261,8 @@
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
 
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="POST" method="post" role="form" class="php-email-form" data-netlify="true"
+                            data-netlify-recaptcha="true">
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
@@ -281,6 +281,7 @@
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message"
                                     required></textarea>
                             </div>
+                            <div class="form-group mt-3" data-netlify-recaptcha="true"></div>
                             <div class="my-3">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
